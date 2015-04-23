@@ -1,6 +1,10 @@
 require 'sinatra'
 require "sinatra/json"
 
+# This bind allow other people in lan to access sinatra app through ip
+# Be carefull it can can security concern
+set :bind, '0.0.0.0'
+
 list = [
   {"author": "Pete Hunt", "text": "This is one comment"},
   {"author": "Jordan Walke", "text": "This is *another* comment"},
