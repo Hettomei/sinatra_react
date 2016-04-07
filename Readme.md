@@ -10,7 +10,10 @@ Just an in memory visitors book, handle with ReactJS and Sinatra
 # Start it
 
 ```bash
-ruby myapp.rb
+bundle install
+bundle exec ruby myapp.rb
 ```
 
 then go to ```http://localhost:4567```
+
+or go to ```http://localhost:4567/inc```

@@ -23,3 +23,7 @@ post '/comments' do
   list << {"author": params['author'], "text": params['text']}
   json list
 end
+
+get '/inc' do
+  send_file './public/inc.html'
+end
